@@ -1,5 +1,5 @@
 import React from 'react';
-import {auth, signInWithGoogle } from '../../../firebase/firebase';
+import {auth, signInWithGoogle } from '../../firebase/firebase';
 import CustomButton from '../custom-button/custom-button';
 import FormInput from './form-input';
 

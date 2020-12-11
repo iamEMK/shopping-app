@@ -4,8 +4,8 @@ import {Route, Switch } from 'react-router-dom';
 import './App.css';
 import HomePage from './Pages/homepage/homepage';
 import ShopPage from './Pages/shop/shop';
-import Header from './components/menu-items/Header/Header.js';
-import SignInAndSignUpPage from './components/menu-items/Sign-in-sign-up/sign-in-sign-up';
+import Header from './components/Header/Header.js';
+import SignInAndSignUpPage from './components/Sign-in-sign-up/sign-in-sign-up';
 import { auth ,createUserProfileDocument} from './firebase/firebase';
 
 class App extends React.Component{
